@@ -3,7 +3,7 @@
 Installing Python on Mac OS X
 =============================
 
-The latest version of Mac OS X, Mavericks, **comes with Python 2.7 out of the box**.
+The latest version of Mac OS X, Yosemite, **comes with Python 2.7 out of the box**.
 
 You do not need to install or configure anything else to use Python. Having
 said that, I would strongly recommend that you install the tools and libraries
@@ -73,7 +73,7 @@ software over a network (usually the Internet) with a single command
 capability to your own Python software with very little work.
 
 ``pip`` is a tool for easily installing and managing Python packages,
-that is recommended over ``easy_install``. It is superior to ``easy_install`` in `several ways <https://pip.pypa.io/en/1.5.X/other-tools.html#easy-install>`_,
+that is recommended over ``easy_install``. It is superior to ``easy_install`` in `several ways <https://python-packaging-user-guide.readthedocs.org/en/latest/pip_easy_install.html#pip-vs-easy-install>`_,
 and is actively maintained.
 
 

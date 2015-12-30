@@ -213,8 +213,8 @@ can be somewhat misleading and needs to be clarified.
 In Python, everything is an object, and can be handled as such. This is what is
 meant when we say, for example, that functions are first-class objects.
 Functions, classes, strings, and even types are objects in Python: like any
-objects, they have a type, they can be passed as function arguments, they may
-have methods and properties. In this understanding, Python is an
+object, they have a type, they can be passed as function arguments, and they
+may have methods and properties. In this understanding, Python is an
 object-oriented language.
 
 However, unlike Java, Python does not impose object-oriented programming as the
@@ -469,9 +469,8 @@ like above or in cases where you are adding to an existing string, using
 .. note::
     You can also use the :ref:`% <python:string-formatting>` formatting operator
     to concatenate a pre-determined number of strings besides :py:meth:`str.join`
-    and ``+``. However, according to :pep:`3101`, the ``%`` operator became
-    deprecated in Python 3.1 and will be replaced by the :py:meth:`str.format`
-    method in the later versions.
+    and ``+``. However, :pep:`3101`, discourages the usage of the ``%`` operator
+    in favor of the :py:meth:`str.format` method.
 
 .. code-block:: python
 
